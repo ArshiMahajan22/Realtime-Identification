@@ -1,6 +1,6 @@
 function setup() {
   canvas = createCanvas(250, 250);
-  canvas.position(300, screen.width/2);
+  canvas.position(screen.width/2, screen.height/2);
   video = createCapture(VIDEO);
   video.hide();
 
